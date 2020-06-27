@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', ()=>{
     const names = document.querySelector('.name');
     const par = document.querySelector('p');
-    const button = document.querySelector('.button img');
+    const button = document.querySelector('.button');
 
     function getData() {
     fetch('https://api.punkapi.com/v2/beers/random')
